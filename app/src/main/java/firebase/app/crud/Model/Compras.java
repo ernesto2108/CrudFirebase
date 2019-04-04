@@ -53,6 +53,12 @@ public class Compras {
 
     @Override
     public String toString() {
-        return fecha;
+        return "Compras{" +
+                "id='" + id + '\'' +
+                ", fecha='" + fecha + '\'' +
+                ", cantidad='" + cantidad + '\'' +
+                ", nomclie='" + nomclie + '\'' +
+                ", descompra='" + descompra + '\'' +
+                '}';
     }
 }
